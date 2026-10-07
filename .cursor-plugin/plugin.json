@@ -1,0 +1,36 @@
+{
+  "name": "linkmcp",
+  "displayName": "LinkMCP",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Your own LinkedIn account as agent tools: look up people and companies, search LinkedIn and Sales Navigator, read and answer messages, post and comment, and find work emails (URL-only connector to the hosted LinkMCP server).",
+  "author": {
+    "name": "LinkMCP",
+    "email": "info@linkmcp.io"
+  },
+  "publisher": "Third Person Systems LLC",
+  "homepage": "https://app.linkmcp.io",
+  "repository": "https://github.com/linkmcp-io/linkmcp-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "linkedin",
+    "sales",
+    "prospecting",
+    "sales navigator",
+    "recruiting",
+    "lead research",
+    "email finder",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "linkedin",
+    "sales",
+    "prospecting",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
+}
