@@ -73,7 +73,7 @@ each one posted in the last month.
 
 ## Tools
 
-35 tools. 26 tools only read. 8 tools write: send a message, send a connection request, manage a connection request, create a post, comment, react, mark a conversation as read, and send feedback. Each tool is marked as read-only or as a write, so your client can ask for your approval before each write. Full list: [Tool reference](https://app.linkmcp.io/docs/tool-reference).
+35 tools. 27 tools only read. 8 tools write: send a message, send a connection request, manage a connection request, create a post, comment, react, mark a conversation as read, and send feedback. Each tool is marked as read-only or as a write, so your client can ask for your approval before each write. Full list: [Tool reference](https://app.linkmcp.io/docs/tool-reference).
 
 ## How sign-in and data work
 

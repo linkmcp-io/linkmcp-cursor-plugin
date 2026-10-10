@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- README: 27 tools only read (8 tools write).
+
 ## 1.0.1
 
 - Server URL with the listing tag `?ref=cursor-marketplace`.
