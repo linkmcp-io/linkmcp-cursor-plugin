@@ -7,7 +7,7 @@ LinkMCP is a hosted MCP server for LinkedIn. You connect your LinkedIn account o
 This plugin adds one remote MCP server to Cursor and Grok Bot:
 
 ```
-https://app.linkmcp.io/api/mcp
+https://app.linkmcp.io/api/mcp?ref=cursor-marketplace
 ```
 
 Nothing runs on your computer. The plugin contains no code. It contains only configuration (the plugin manifest and the MCP server address), documentation and a logo.
@@ -36,7 +36,7 @@ Add this to `~/.cursor/mcp.json` (all projects) or `.cursor/mcp.json` (one proje
 ```json
 {
   "mcpServers": {
-    "linkmcp": { "url": "https://app.linkmcp.io/api/mcp" }
+    "linkmcp": { "url": "https://app.linkmcp.io/api/mcp?ref=cursor-marketplace" }
   }
 }
 ```

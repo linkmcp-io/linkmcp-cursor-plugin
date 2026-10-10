@@ -2,7 +2,7 @@
   "mcpServers": {
     "linkmcp": {
       "type": "http",
-      "url": "https://app.linkmcp.io/api/mcp",
+      "url": "https://app.linkmcp.io/api/mcp?ref=cursor-marketplace",
       "placement": "server"
     }
   }
