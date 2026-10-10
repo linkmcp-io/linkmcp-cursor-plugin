@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Server URL with the listing tag `?ref=cursor-marketplace`.
+- Tool count 35 in the README.
+
 ## 1.0.0
 
 - First release: the `linkmcp` MCP server, a URL-only connector to the hosted LinkMCP server at `https://app.linkmcp.io/api/mcp` (Streamable HTTP).
