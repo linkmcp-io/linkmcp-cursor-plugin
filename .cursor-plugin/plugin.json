@@ -1,11 +1,11 @@
 {
   "name": "linkmcp",
   "displayName": "LinkMCP",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "minClientVersions": {
     "cursor": "3.13.0"
   },
-  "description": "Your own LinkedIn account as agent tools: look up people and companies, search LinkedIn and Sales Navigator, read and answer messages, post and comment, and find work emails (URL-only connector to the hosted LinkMCP server).",
+  "description": "Your own LinkedIn account as agent tools, and 7 skills for complete LinkedIn jobs: prospect lists with work emails, hiring signal leads, candidate shortlists, prospect search, call prep, post engagement leads and inbox follow-ups (connector to the hosted LinkMCP server).",
   "author": {
     "name": "LinkMCP",
     "email": "info@linkmcp.io"
@@ -23,6 +23,7 @@
     "recruiting",
     "lead research",
     "email finder",
+    "skills",
     "mcp"
   ],
   "category": "integrations",
@@ -30,7 +31,9 @@
     "linkedin",
     "sales",
     "prospecting",
+    "recruiting",
     "mcp"
   ],
+  "skills": "./skills/",
   "mcpServers": "./mcp.json"
 }

@@ -10,7 +10,7 @@ This plugin adds one remote MCP server to Cursor and Grok Bot:
 https://app.linkmcp.io/api/mcp?ref=cursor-marketplace
 ```
 
-Nothing runs on your computer. The plugin contains no code. It contains only configuration (the plugin manifest and the MCP server address), documentation and a logo.
+Nothing runs on your computer. The plugin contains no code. It contains only configuration (the plugin manifest and the MCP server address), 7 skills (Markdown instructions), documentation and a logo.
 
 LinkMCP is not affiliated with, endorsed by or sponsored by LinkedIn Corporation. LinkedIn is a trademark of LinkedIn Corporation.
 
@@ -69,6 +69,29 @@ anything.
 ```
 Find heads of RevOps at Series B SaaS companies in the Netherlands. Summarise what
 each one posted in the last month.
+```
+
+## Skills
+
+The plugin also adds 7 skills. A skill is a short set of instructions that tells the agent how to do one complete job with the LinkMCP tools. Cursor and Grok Bot load them from the plugin.
+
+| Skill | What you get | Free trial | What it sends to LinkedIn |
+|---|---|---|---|
+| `linkedin-prospect-list` | Paste profile links. Get a ranked prospect list with the role, company size, a recent post topic and the work email. | Yes | Nothing |
+| `linkedin-hiring-signal-leads` | Companies that hire for a role your product supports, a reason to contact them now, and the hiring team with their work emails when the job post shows the team. | Yes, with job links | Nothing |
+| `linkedin-candidate-shortlist` | Screen candidates against the must-haves of a role, with evidence, gaps and questions for the first call. | Yes, with profile links | Only the invitations that you approve, one at a time |
+| `linkedin-prospect-search` | Find people who match your ideal customer with LinkedIn or Sales Navigator search, and connect with notes that you approve. | No | Only the invitations that you approve, one at a time |
+| `linkedin-account-brief` | A one-page brief before a call. | Yes, except shared connections | Nothing |
+| `linkedin-engagement-leads` | The people who engaged with a post, as a ranked lead list. | Yes, except replies to comments | Nothing |
+| `linkedin-inbox-followup` | Conversations with no reply for 7 days or more, with follow-up drafts. | No | Only the messages that you approve, one at a time |
+
+"No" in the free trial column means that the skill needs your own LinkedIn account, which is part of the paid plans.
+
+Try it:
+
+```
+Rank these LinkedIn profiles as prospects for <what you sell> and find the work
+emails of the best ones: <profile links>
 ```
 
 ## Tools

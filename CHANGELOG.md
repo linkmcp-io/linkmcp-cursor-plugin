@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+- 7 skills in `skills/`: `linkedin-prospect-list`, `linkedin-hiring-signal-leads`, `linkedin-candidate-shortlist`, `linkedin-prospect-search`, `linkedin-account-brief`, `linkedin-engagement-leads` and `linkedin-inbox-followup`. They are byte copies of the skills in github.com/linkmcp-io/linkmcp.
+- The skills only read, except three: they send a LinkedIn message or invitation only after the user approves its exact text, one at a time.
+
 ## 1.0.2
 
 - README: 27 tools only read (8 tools write).
